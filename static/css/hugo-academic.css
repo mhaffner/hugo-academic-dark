@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
-  color: #313131;
+  color: #f2f2f2ff;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -94,6 +94,7 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
+/* hover over article title */
 a,
 h3.article-title a:hover {
   color: #0095eb;
@@ -101,9 +102,10 @@ h3.article-title a:hover {
   transition: color 0.6s ease;
 }
 
+/* hover over social media icons */
 a:hover,
 a:focus {
-  color: #005181;
+    color: #80ff80ff;
 }
 
 img,
@@ -202,6 +204,7 @@ blockquote p:last-child {
   }
 }
 
+/* home section with name, education, etc. */
 .home-section {
   background-color: #313131;
   padding: 110px 0 110px 0;
@@ -213,8 +216,9 @@ blockquote p:last-child {
   padding-top: 50px;
 }
 
+/* alternating section */
 .home-section:nth-of-type(even) {
-  background-color: rgb(247, 247, 247);
+    background-color: #4d4d4dff;
 }
 
 @media screen and (max-width: 768px) {
@@ -234,7 +238,7 @@ blockquote p:last-child {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
-  color: #b2b2b2;
+  color: #AA87DE;
 }
 
 /*************************************************
@@ -837,8 +841,9 @@ footer a#back_to_top i {
   min-height: 70px !important;
 }
 
+/* navbar background */
 .navbar-default {
-  background: #fff;
+    background: #4d4d4dff;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
 }
 
@@ -846,16 +851,18 @@ nav#navbar-main li {
   font-size: 16px;
 }
 
+/* Inactive navbar item */
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-nav>a:focus,
 .navbar-default .navbar-nav>a:hover {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #34495e;
+  color: #fff;
   font-weight: 600;
 }
 
+/* Current navbar item */
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -891,11 +898,12 @@ nav#navbar-main li {
   outline: 0;
 }
 
+/* name on navbar */
 .navbar-default .navbar-brand {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.2em;
-  color: #2b2b2b;
+  color: #FF9955;
 }
 
 @media screen and (max-width: 1200px) {
